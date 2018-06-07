@@ -1,5 +1,6 @@
-Designer Trial is a maven application with a built-in jetty server, run the following command to start the application;
+Designer Trial is a maven application with a built-in jetty server, run the following commands to start the application;
 
+sass -w src/main/webapp --sourcemap=none
 mvn jetty:run
 
 Then, navigate to url below to access the Trial
